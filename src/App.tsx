@@ -91,13 +91,19 @@ const SITES: Site[] = fundstellenToSites(fundstellenData.fundstellen);
 const getSiteImage = (site: Site) => {
   if (site.thumbnail) return site.thumbnail;
   const imageMap: Record<string, string> = {
-    'dummy-001-gollenstein': '/Gollenstein.jpeg',
-    'dummy-003-museum-vor-fruehgeschichte': '/Eingang Museum Saarbrücken.jpeg',
-    'dummy-004-hunnenring': '/Hunnenring Mauern.jpeg',
-    'dummy-005-kulturpark-bliesbruck-reinheim': '/Europäischer kulturpark.jpeg',
-    'dummy-006-villa-borg': '/Villa Borg Ansicht der Villa.jpeg',
-    'dummy-007-villa-nennig': '/Nennig Mosaik .jpeg',
-    'dummy-008-roemermuseum-schwarzenacker': '/Römermuseum Schwarzenacker.jpeg',
+    'dummy-001-gollenstein': 'images/dummy-001-gollenstein.jpg',
+    'dummy-002-spellenstein': 'images/dummy-002-spellenstein.jpg',
+    'dummy-003-museum-vor-fruehgeschichte': 'images/dummy-003-museum-vor-fruehgeschichte.jpg',
+    'dummy-004-hunnenring': 'images/dummy-004-hunnenring.jpg',
+    'dummy-005-kulturpark-bliesbruck-reinheim': 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
+    'dummy-006-villa-borg': 'images/dummy-006-villa-borg.jpg',
+    'dummy-007-villa-nennig': 'images/dummy-007-villa-nennig.jpg',
+    'dummy-008-roemermuseum-schwarzenacker': 'images/dummy-008-roemermuseum-schwarzenacker.jpg',
+    'dummy-010-emilianus-stollen': 'images/dummy-010-emilianus-stollen.jpg',
+    'dummy-011-mithras-heiligtum': 'images/dummy-011-mithras-heiligtum.jpg',
+    'dummy-012-burg-montclair': 'images/dummy-012-burg-montclair.jpg',
+    'dummy-013-abtei-tholey': 'images/dummy-013-abtei-tholey.jpg',
+    'dummy-014-voelklinger-huette': 'images/dummy-014-voelklinger-huette.jpg',
   };
   if (imageMap[site.id]) return imageMap[site.id];
   if (site.imageUrl && site.imageUrl.trim()) return site.imageUrl;
@@ -677,7 +683,7 @@ const SteckbriefOverlay = ({
                 referrerPolicy="no-referrer"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  const safeFallback = site.name.toLowerCase().includes('reinheim') ? '/Europäischer kulturpark.jpeg' : '/Gollenstein.jpeg';
+                  const safeFallback = site.name.toLowerCase().includes('reinheim') ? 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg' : 'images/dummy-001-gollenstein.jpg';
                   if (!target.src.includes('unsplash') && !target.src.includes('placehold.co') && site.imageUrl && !site.imageUrl.includes('unsplash')) {
                     target.src = site.imageUrl;
                   } else {
@@ -718,13 +724,13 @@ const SteckbriefOverlay = ({
                         title="Klicken für Vollansicht"
                       >
                         <img 
-                          src={`/${id}.jpeg`} 
+                          src={`${id}.jpeg`} 
                           alt={id}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                           onError={(e) => {
                             const target = e.target as HTMLImageElement;
                             if (target.src.endsWith('.jpeg')) {
-                              target.src = `/${id}.jpg`;
+                              target.src = `${id}.jpg`;
                             } else {
                               target.src = `https://placehold.co/400x400/1c1917/a8a29e?text=${encodeURIComponent(id)}`;
                               target.className = "w-full h-full object-cover opacity-40 grayscale";
@@ -1402,7 +1408,7 @@ const ImageLightbox = ({ images, initialIndex, onClose }: LightboxProps) => {
             className={`max-w-full max-h-full rounded-2xl shadow-2xl object-contain select-none transition-all duration-300 ${zoom ? 'cursor-zoom-out' : 'cursor-zoom-in'}`}
             onClick={() => setZoom(!zoom)}
             onError={() => {
-              const safeFallback = currentImage.title.toLowerCase().includes('reinheim') ? '/Europäischer kulturpark.jpeg' : '/Gollenstein.jpeg';
+              const safeFallback = currentImage.title.toLowerCase().includes('reinheim') ? 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg' : 'images/dummy-001-gollenstein.jpg';
               if (!hasError && currentImage.fallbackSrc && !currentImage.fallbackSrc.includes('unsplash')) {
                 setHasError(true);
                 setImgSrc(currentImage.fallbackSrc);
@@ -3138,7 +3144,7 @@ export default function App() {
               window.scrollTo(0, 0);
             }}
             onOpenLightbox={(index) => {
-              const safeFallback = selectedSite.name.toLowerCase().includes('reinheim') ? '/Europäischer kulturpark.jpeg' : '/Gollenstein.jpeg';
+              const safeFallback = selectedSite.name.toLowerCase().includes('reinheim') ? 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg' : 'images/dummy-001-gollenstein.jpg';
               const safeSrc = getSiteImage(selectedSite);
               const imgs = [
                 {
@@ -3150,8 +3156,8 @@ export default function App() {
               if (selectedSite.galleryIds) {
                 selectedSite.galleryIds.forEach(id => {
                   imgs.push({
-                    src: `/${id}.jpeg`,
-                    fallbackSrc: `/${id}.jpg`,
+                    src: `${id}.jpeg`,
+                    fallbackSrc: `${id}.jpg`,
                     title: `${selectedSite.name} - ${id}`
                   });
                 });

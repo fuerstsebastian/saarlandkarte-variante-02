@@ -43,7 +43,7 @@
       "maps_link": "https://maps.google.com/?q=49.241,7.26",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-001-gollenstein.jpg",
+      "thumbnail": "images/dummy-001-gollenstein.jpg",
       "copyright": { "urheber": "LauterGold, Wikimedia", "lizenz": "CC BY-NC 2.0 / Wikimedia", "quelle": "flickr.com, wikimedia.org" }
     },
     {
@@ -63,7 +63,7 @@
       "maps_link": "https://maps.google.com/?q=49.2737,7.1063",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-002-spellenstein.jpg",
+      "thumbnail": "images/dummy-002-spellenstein.jpg",
       "copyright": { "urheber": "Wikimedia", "lizenz": "Wikimedia", "quelle": "wikimedia.org" }
     },
     {
@@ -83,7 +83,8 @@
       "maps_link": "https://maps.google.com/?q=49.2302,6.9926",
       "denkmalschutzstatus": null,
       "literatur": [],
-      "thumbnail": null
+      "thumbnail": "images/dummy-003-museum-vor-fruehgeschichte.jpg",
+      "copyright": { "urheber": "Lokales Projektfoto", "lizenz": "Projektbestand", "quelle": "C:/opencode/projects/Saarland-Karte/bilder" }
     },
     {
       "id": "dummy-004-hunnenring",
@@ -102,7 +103,7 @@
       "maps_link": "https://maps.google.com/?q=49.6058,6.9878",
       "denkmalschutzstatus": "Grabungsschutzgebiet, eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-004-hunnenring.jpg",
+      "thumbnail": "images/dummy-004-hunnenring.jpg",
       "copyright": { "urheber": "Flocci Nivis, HaWiRam21, Wikipedia", "lizenz": "CC BY-SA 4.0", "quelle": "wikimedia.org, wikipedia.org" }
     },
     {
@@ -122,7 +123,7 @@
       "maps_link": "https://maps.google.com/?q=49.144,7.188",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal (Saarland und Moselle/Frankreich)",
       "literatur": [],
-      "thumbnail": "/images/dummy-005-kulturpark-bliesbruck-reinheim.jpg",
+      "thumbnail": "images/dummy-005-kulturpark-bliesbruck-reinheim.jpg",
       "copyright": { "urheber": "Flocci Nivis, Saarblitz, Following Hadrian, atreyu", "lizenz": "CC BY 4.0, CC BY-NC-SA 2.0, CC BY-SA 2.0/3.0", "quelle": "flickr.com, wikimedia.org" }
     },
     {
@@ -142,7 +143,7 @@
       "maps_link": "https://maps.google.com/?q=49.486,6.435",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal (Saarland)",
       "literatur": [],
-      "thumbnail": "/images/dummy-006-villa-borg.jpg",
+      "thumbnail": "images/dummy-006-villa-borg.jpg",
       "copyright": { "urheber": "enbodenumer", "lizenz": "CC BY-NC-SA 2.0", "quelle": "flickr.com" }
     },
     {
@@ -162,7 +163,7 @@
       "maps_link": "https://maps.google.com/?q=49.5289,6.3831",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal, UNESCO-Vorschlagsliste",
       "literatur": [],
-      "thumbnail": "/images/dummy-007-villa-nennig.jpg",
+      "thumbnail": "images/dummy-007-villa-nennig.jpg",
       "copyright": { "urheber": "Damien Marcellin Tournay, Wikimedia", "lizenz": "CC BY-NC 2.0 / Wikimedia", "quelle": "flickr.com, wikimedia.org" }
     },
     {
@@ -182,7 +183,7 @@
       "maps_link": "https://maps.google.com/?q=49.2832,7.3175",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-008-roemermuseum-schwarzenacker.jpg",
+      "thumbnail": "images/dummy-008-roemermuseum-schwarzenacker.jpg",
       "copyright": { "urheber": "johann j.m., Flocci Nivis", "lizenz": "CC BY-NC-SA 2.0, CC BY 4.0", "quelle": "flickr.com, wikimedia.org" }
     },
     {
@@ -221,7 +222,7 @@
       "maps_link": "https://maps.google.com/?q=49.3392,6.6947",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-010-emilianus-stollen.jpg",
+      "thumbnail": "images/dummy-010-emilianus-stollen.jpg",
       "copyright": { "urheber": "LoKiLeCh, Zecke64", "lizenz": "CC BY-SA 3.0, CC BY-SA 4.0", "quelle": "wikimedia.org" }
     },
     {
@@ -241,7 +242,8 @@
       "maps_link": "https://maps.google.com/?q=49.2227,7.0264",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": null
+      "thumbnail": "images/dummy-011-mithras-heiligtum.jpg",
+      "copyright": { "urheber": "Lokales Projektfoto", "lizenz": "Projektbestand", "quelle": "C:/opencode/projects/Saarland-Karte/bilder" }
     },
     {
       "id": "dummy-012-burg-montclair",
@@ -260,7 +262,7 @@
       "maps_link": "https://maps.google.com/?q=49.4959,6.5575",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-012-burg-montclair.jpg",
+      "thumbnail": "images/dummy-012-burg-montclair.jpg",
       "copyright": { "urheber": "sebaso, kewl, Monika Schiefer, Wikimedia", "lizenz": "CC BY 2.0, CC BY-NC-SA 2.0 / Wikimedia", "quelle": "flickr.com, wikimedia.org" }
     },
     {
@@ -280,7 +282,7 @@
       "maps_link": "https://maps.google.com/?q=49.4835,7.0365",
       "denkmalschutzstatus": "Eingetragenes Kulturdenkmal",
       "literatur": [],
-      "thumbnail": "/images/dummy-013-abtei-tholey.jpg",
+      "thumbnail": "images/dummy-013-abtei-tholey.jpg",
       "copyright": { "urheber": "Stefan Oemisch, LauterGold, Wikipedia", "lizenz": "CC BY-SA 4.0, CC BY-NC 2.0 / Wikipedia", "quelle": "wikimedia.org, flickr.com" }
     },
     {
@@ -300,7 +302,7 @@
       "maps_link": "https://maps.google.com/?q=49.2494,6.8447",
       "denkmalschutzstatus": "UNESCO-Weltkulturerbe",
       "literatur": [],
-      "thumbnail": "/images/dummy-014-voelklinger-huette.jpg",
+      "thumbnail": "images/dummy-014-voelklinger-huette.jpg",
       "copyright": { "urheber": "Jakob Montrasio, tm-md, frans16611", "lizenz": "CC BY 2.0, CC BY-SA 2.0", "quelle": "flickr.com" }
     }
   ]

@@ -45,7 +45,7 @@ export const MUSEUMS_DATA: Museum[] = [
     entranceFee: 'Erwachsene: 5,00 € | Ermäßigt: 3,00 € | Jugendliche unter 18 Jahren freier Eintritt',
     lat: 49.2302,
     lng: 6.9926,
-    imageUrl: '/Eingang Museum Saarbrücken.jpeg',
+    imageUrl: 'images/dummy-003-museum-vor-fruehgeschichte.jpg',
     description: 'Das zentrale Landesmuseum im Saarland bewahrt die archäologischen Epochen von der Steinzeit bis zum frühen Mittelalter. Seine architektonischen Glanzlichter und weltberühmten Keltengoldschätze zählen zu den kostbarsten Hinterlassenschaften der Region.',
     websiteUrl: 'https://www.saarland-museum.de/de/vor-und-fruehgeschichte',
     artifacts: [
@@ -56,7 +56,7 @@ export const MUSEUMS_DATA: Museum[] = [
         originSiteName: 'Keltisches Fürstinnengrab Reinheim',
         period: 'Eisenzeit (Frühlatènezeit, ca. 370 v. Chr.)',
         description: 'Einzigartiger Goldschmuck bestehend aus einem kunstvoll verzierten Halsring (Torques) mit figürlichen Enden und einem passenden goldenen Armreif. Meisterwerke keltischer Goldschmiedekunst.',
-        imageUrl: '/Reinheim Goldschmuck der keltischen Fürstin.jpeg',
+        imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
         status: 'In Ausstellung'
       },
       {
@@ -66,7 +66,7 @@ export const MUSEUMS_DATA: Museum[] = [
         originSiteName: 'Keltisches Fürstinnengrab Reinheim',
         period: 'Eisenzeit (Frühlatènezeit, ca. 370 v. Chr.)',
         description: 'Eine prachtvolle Schnabelkanne aus Bronze. Sie diente als keltisches Prunktrinkgefäß und ist mit einer filigranen, mystischen Fabelwesen-Figur auf dem Deckel verziert.',
-        imageUrl: '/Reinheim Kanne.jpeg',
+        imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
         status: 'In Ausstellung'
       },
       {
@@ -76,7 +76,7 @@ export const MUSEUMS_DATA: Museum[] = [
         originSiteName: 'Römische Villa Reinheim',
         period: 'Römerzeit (Kaiserzeit, 2. Jh. n. Chr.)',
         description: 'Eine spektakuläre eiserne römische Gesichtsmaske eines Reiterhelms (Reitermaske), die auf dem Areal der Villa gefunden wurde. Sie diente sportlichen und repräsentativen Zwecken römischer Kavalleristen.',
-        imageUrl: '/Reinheim römische Reitermaske _ Museum Saarbrücken.jpeg',
+        imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
         status: 'In Ausstellung'
       },
       {
@@ -86,7 +86,7 @@ export const MUSEUMS_DATA: Museum[] = [
         originSiteName: 'Keltisches Fürstinnengrab Reinheim',
         period: 'Eisenzeit (Frühlatènezeit, ca. 370 v. Chr.)',
         description: 'Detail-Darstellung des mystischen Fabelwesens (Mischwesen), das den Deckel der bronzenen Röhrenkanne ziert. Ein faszinierendes Zeugnis keltischer Mythologie.',
-        imageUrl: '/Reinheim mystisches  Wesen.jpeg',
+        imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
         status: 'In Ausstellung'
       },
       {
@@ -96,7 +96,7 @@ export const MUSEUMS_DATA: Museum[] = [
         originSiteName: 'Vicus & Kastell Contiomagus',
         period: 'Römerzeit (3. Jahrhundert n. Chr.)',
         description: 'Römische Inschriftensteine und Göttersitzsteine aus dem Vicus Contiomagus (Pachten), die im Museum Saarbrücken ausgestellt sind.',
-        imageUrl: '/Pachten Sitzsteine in Museum Saarbrücken.jpeg',
+        imageUrl: 'images/dummy-003-museum-vor-fruehgeschichte.jpg',
         status: 'In Ausstellung'
       },
       {
@@ -180,7 +180,7 @@ export const MUSEUMS_DATA: Museum[] = [
     entranceFee: 'Erwachsene: 6,00 € | Ermäßigt: 4,50 € | Schüler & Studenten: 3,00 € | Kinder unter 6 Jahren freier Eintritt',
     lat: 49.2831,
     lng: 7.3168,
-    imageUrl: '/Schwarzenacker_Pferde Blick .jpeg',
+    imageUrl: 'images/dummy-008-roemermuseum-schwarzenacker.jpg',
     description: 'Ein einzigartiges Freilichtmuseum direkt auf dem Areal des antiken gallo-römischen Vicus. Neben freigelegten Straßenfassaden zeigt das barocke Edelhaus unzählige Originalfunde des alltäglichen Lebens vor 2000 Jahren.',
     websiteUrl: 'https://www.roemermuseum-schwarzenacker.de/',
     artifacts: [
@@ -291,7 +291,7 @@ export const MUSEUMS_DATA: Museum[] = [
     entranceFee: 'Eintritt frei (Spenden zum Erhalt des Museums sind herzlich willkommen)',
     lat: 49.3547,
     lng: 6.7099,
-    imageUrl: '/Mueseum Pachten Eingang.jpeg',
+    imageUrl: 'images/dummy-003-museum-vor-fruehgeschichte.jpg',
     description: 'Das Museum Pachten bewahrt und dokumentiert die reichhaltige römische und prähistorische Epoche des Dillingen-Pachtener Raumes (antiker Vicus Contiomagus). Einzigartig sind die Fundstücke aus den weiten Kastellgrabungen und Gräberfeldern.',
     websiteUrl: 'https://www.roemermuseum-pachten.de/',
     phone: '06831 709 212',
@@ -425,26 +425,26 @@ export default function MuseumsView({ onFocusSiteOnMap, onFocusMuseumOnMap, allS
   // Pre-load galleries particularly for Saarbrücken & Pachten as requested, and fallback defaults for others
   const [museumImages, setMuseumImages] = useState<Record<string, string[]>>({
     'mvf-saarbruecken': [
-      '/Eingang Museum Saarbrücken.jpeg',
-      '/Reinheim Goldschmuck der keltischen Fürstin.jpeg',
-      '/Reinheim römische Reitermaske _ Museum Saarbrücken.jpeg',
-      '/Reinheim mystisches  Wesen.jpeg',
-      '/Reinheim Kanne.jpeg',
-      '/Pachten Sitzsteine in Museum Saarbrücken.jpeg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
+      'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
+      'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
+      'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
+      'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
       'https://images.unsplash.com/photo-1544085311-11a028465b0c?auto=format&fit=crop&q=80&w=1200'
     ],
     'museum-pachten': [
-      '/Mueseum Pachten Eingang.jpeg',
-      '/Pachten Karte mit Ausgrabungen .jpeg',
-      '/Pachten Kastellgrundriss.jpeg',
-      '/Pachten Rekonstruktion Kastell.jpeg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
+      'images/dummy-003-museum-vor-fruehgeschichte.jpg',
       'https://images.unsplash.com/photo-1544085311-11a028465b0c?auto=format&fit=crop&q=80&w=1200'
     ],
     'landesmuseum-trier': [
       'https://images.unsplash.com/photo-1599110906800-4b95d033973c?auto=format&fit=crop&q=80&w=1200'
     ],
     'roemermuseum-schwarzenacker': [
-      '/Schwarzenacker_Pferde Blick .jpeg',
+      'images/dummy-008-roemermuseum-schwarzenacker.jpg',
       'https://images.unsplash.com/photo-1558486012-817176f84c6d?auto=format&fit=crop&q=80&w=1200'
     ],
     'mvf-berlin': [

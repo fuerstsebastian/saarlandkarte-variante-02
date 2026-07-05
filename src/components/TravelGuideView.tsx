@@ -187,7 +187,7 @@ export default function TravelGuideView({
       epoch: 'Römerzeit',
       eraLabel: 'Römerzeit & Keltengräber',
       sites: ['site-bliesbruck', 'site-graeberfeld-reinheim'],
-      imageUrl: '/Blick auf Reineheim Kulturpark.jpeg'
+      imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg'
     },
     {
       id: 'tour-otzenhausen',
@@ -200,7 +200,7 @@ export default function TravelGuideView({
       epoch: 'Eisenzeit',
       eraLabel: 'Keltische Eisenzeit',
       sites: ['site-ringwall-otzenhausen'],
-      imageUrl: '/Ringwall Otzenhausen 1.jpeg'
+      imageUrl: 'images/dummy-004-hunnenring.jpg'
     },
     {
       id: 'tour-mandelbachtal',
@@ -239,7 +239,7 @@ export default function TravelGuideView({
       epoch: 'Römerzeit',
       eraLabel: 'Römische Infrastruktur',
       sites: ['site-schwarzenacker', 'site-bliesbruck'],
-      imageUrl: '/Römermuseum Schwarzenacker.jpeg'
+      imageUrl: 'images/dummy-008-roemermuseum-schwarzenacker.jpg'
     }
   ];
 
@@ -511,7 +511,7 @@ export default function TravelGuideView({
           <div className="relative">
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden bg-stone-950 flex items-center justify-center shadow-2xl border-4 border-stone-100 ring-4 ring-emerald-800/20 shrink-0">
               <img 
-                src="/Flavius Secundus Pulcher.jpeg" 
+                src="images/dummy-003-museum-vor-fruehgeschichte.jpg" 
                 alt="Flavius Secundus Pulcher" 
                 className="w-full h-full object-contain p-1"
                 referrerPolicy="no-referrer"
@@ -1063,7 +1063,7 @@ export default function TravelGuideView({
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full overflow-hidden bg-stone-950 flex items-center justify-center shadow">
                     <img 
-                      src="/Flavius Secundus Pulcher.jpeg" 
+                      src="images/dummy-003-museum-vor-fruehgeschichte.jpg" 
                       alt="Flavius Secundus Pulcher" 
                       className="w-full h-full object-contain p-0.5"
                       referrerPolicy="no-referrer"

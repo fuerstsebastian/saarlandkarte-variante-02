@@ -22,7 +22,7 @@ export const TOURS: Tour[] = [
       'Smartphone oder GPS-Gerät zur Navigation'
     ],
     safetyTips: 'Einige Steigungen auf Feldwegen können nach Regenfällen rutschig sein. Achten Sie auf landwirtschaftlichen Verkehr auf den befestigten Abschnitten.',
-    imageUrl: '/Blick auf Reineheim Kulturpark.jpeg',
+    imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
     stopIds: [
       'bronzezeit-reinheim-hort',
       'bronzezeit-boeckweiler-grabhuegel',
@@ -74,7 +74,7 @@ export const TOURS: Tour[] = [
       'Kamera für eindrucksvolle Steinwall-Perspektiven'
     ],
     safetyTips: 'Die Steinhalden und Blockschuttfelder der Festungsanlage dürfen aus Naturschutz- und Sicherheitsgründen nicht direkt bestiegen werden. Rutschgefahr bei Raureif oder Nässe.',
-    imageUrl: '/Ringwall Otzenhausen 1.jpeg',
+    imageUrl: 'images/dummy-004-hunnenring.jpg',
     stopIds: [
       'ringwall-otzenhausen',
       'otzenhausen-keltenpark',
@@ -209,7 +209,7 @@ export const TOURS: Tour[] = [
       'Ausreichend Getränke für unterwegs'
     ],
     safetyTips: 'Der Radweg verläuft flach auf gut asphaltierten Wegen abseits des Straßenverkehrs. Ideal auch für Familien und E-Bikes. Vorsicht an Schnittstellen mit landwirtschaftlichem Verkehr.',
-    imageUrl: '/Römermuseum Schwarzenacker.jpeg',
+    imageUrl: 'images/dummy-008-roemermuseum-schwarzenacker.jpg',
     stopIds: [
       'reinheim',
       'reinheim-villa',
@@ -257,7 +257,7 @@ export const TOURS: Tour[] = [
       'Kamera für das beeindruckende Steinmonument'
     ],
     safetyTips: 'Der Weg ist größtenteils gut befestigt und verläuft flach über offenes Feld. Ideal auch für weniger geübte Wanderer.',
-    imageUrl: '/Gollenstein.jpeg',
+    imageUrl: 'images/dummy-001-gollenstein.jpg',
     stopIds: [
       'gollenstein',
       'bronzezeit-boeckweiler-grabhuegel',
@@ -298,7 +298,7 @@ export const TOURS: Tour[] = [
       'Sonnenschutz an heißen Tagen'
     ],
     safetyTips: 'Sehr flacher, familienfreundlicher Spaziergang auf befestigten Wegen. Der Parkbereich ist weitgehend barrierefrei gestaltet.',
-    imageUrl: '/Reinheim Kanne.jpeg',
+    imageUrl: 'images/dummy-005-kulturpark-bliesbruck-reinheim.jpg',
     stopIds: ['reinheim', 'reinheim-villa', 'reinheim-grab'],
     pathCoordinates: [
       [49.1350, 7.1850],
@@ -419,7 +419,7 @@ export const TOURS: Tour[] = [
       'Sonnenschutz für die offenen Höhenflächen'
     ],
     safetyTips: 'Der Weg quert einige offene, windanfällige Hochflächen. Wind- und Wetterschutz einpacken.',
-    imageUrl: '/Quellheiligtum Ihn .jpeg',
+    imageUrl: 'https://placehold.co/1200x800/1c1917/a8a29e?text=Quellheiligtum+Sudelfels',
     stopIds: [
       'bronzezeit-wallerfangen-park-galhau',
       'bronzezeit-niedaltdorf-helberg',
@@ -785,7 +785,7 @@ export const TOURS: Tour[] = [
       'Smartphone/Kamera'
     ],
     safetyTips: 'Die Tour verläuft im Nationalparkgebiet. Bitte bleiben Sie auf den markierten Wanderwegen und nehmen Sie Abfälle wieder mit.',
-    imageUrl: '/Keltenpark2.jpeg',
+    imageUrl: 'images/dummy-004-hunnenring.jpg',
     stopIds: [
       'otzenhausen-keltenpark',
       'ringwall-otzenhausen',
